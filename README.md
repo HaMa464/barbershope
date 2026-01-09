@@ -183,7 +183,7 @@ npm run lint
 2. Install: `npm install`
 3. Setup: `cp .env.example .env` and add your Supabase credentials
 4. Run: `npm run dev`
-5. Build: `npm run build`
+5. Build: `npm run build `
 
 ## Troubleshooting
 
