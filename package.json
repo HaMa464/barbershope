@@ -1,13 +1,15 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "barbershope",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hama464.github.io/barbershope/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint .",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
