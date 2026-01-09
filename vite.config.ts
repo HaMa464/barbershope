@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/barbershope/',   // 🔴 THIS LINE IS REQUIRED
+  base: '/barbershope/', // MUST match repo name
 })
